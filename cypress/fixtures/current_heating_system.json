@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "heatsystem": "Natural Gas",
+            "heatcost": "$4,410.00"
+        },
+        {
+            "heatsystem": "Propane",
+            "heatcost": "$15,978.26"
+        },
+        {
+            "heatsystem": "Oil",
+            "heatcost": "$11,236.51"
+        },
+        {
+            "heatsystem": "Electric",
+            "heatcost": "$5,922.21"
+        },
+        {
+            "heatsystem": "Heat Pump",
+            "heatcost": "$4,269.91"
+        }
+    ]
+}

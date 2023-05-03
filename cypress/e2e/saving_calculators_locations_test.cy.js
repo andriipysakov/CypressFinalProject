@@ -19,10 +19,12 @@ describe('saving calculator tests', { defaultCommandTimeout: 10000 }, () => {
     cy.get('h1').should('have.text', 'Savings Calculator')
   })
 
-  it('select states by fixtures', () => {
+  it('select states by fixtures', () => {  
+    cy.get(states).should('be.visible')
+    cy.get(states).invoke('text').should('contain', 'Select State')
+    cy.get(cities).should('be.visible')
+    cy.get(cities).invoke('text').should('contain', 'Select State First')
     data.forEach(element => {
-      cy.get(states).should('be.visible')
-      cy.get(cities).should('be.visible')
       cy.get(states).select(element.state).invoke('val').should('eq', element.state)
       cy.get(cities).select(element.city).invoke('text').should('contain', element.city)
     })

@@ -24,3 +24,10 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+Cypress.Commands.add('populateDataStep1', () => {
+    cy.get('[name="nastates"]').select('Ontario').invoke('val').should('eq', 'Ontario')
+    cy.get('[name="stage2"]').select('Toronto').invoke('text').should('contain', 'Toronto')
+    cy.get('[name="stories"]').select('2').invoke('val').should('eq', '2')
+    cy.get('[name="squarefeet"]').select('2000').invoke('val').should('eq', '2000')
+    cy.get('[name="houseage"]').type('15').invoke('val').should('eq', '15')
+})

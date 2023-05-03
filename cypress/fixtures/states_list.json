@@ -2,8 +2,7 @@
     "data": [
         {
             "state": "Alberta",
-            "city": "Calgary",
-            "city_id": "11"
+            "city": "Calgary"
         },
         {
             "state": "Manitoba",
