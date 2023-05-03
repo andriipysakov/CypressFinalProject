@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "title_menu": "#menu-item-36",
+      "url": "https://consumersenergymanagement.ca/about-us/",
+      "contain": "About Consumers Energy Management Inc."
+    },
+    {
+      "title_menu": "#menu-item-32",
+      "url": "https://consumersenergymanagement.ca/products/",
+      "contain": "Products"
+    },
+    {
+      "title_menu": "#menu-item-34",
+      "url": "https://consumersenergymanagement.ca/services/",
+      "contain": "Services"
+    },
+    {
+      "title_menu": "#menu-item-35",
+      "url": "https://consumersenergymanagement.ca/tools-resources/",
+      "contain": "Tools & Resources"
+    },
+    {
+      "title_menu": "#menu-item-673",
+      "url": "https://consumersenergymanagement.ca/promotions/",
+      "contain": "Promotions"
+    },
+    {
+      "title_menu": "#menu-item-1589",
+      "url": "https://consumersenergymanagement.ca/careers/",
+      "contain": "Careers"
+    },
+    {
+      "title_menu": "#menu-item-1725",
+      "url": "https://consumersenergymanagement.ca/blog/",
+      "contain": "Blog"
+    },
+    {
+      "title_menu": "#menu-item-1727",
+      "url": "https://consumersenergymanagement.ca/faq/",
+      "contain": "Frequently Asked Questions"
+    },
+    {
+      "title_menu": "#menu-item-1726",
+      "url": "https://consumersenergymanagement.ca/contact-us/",
+      "contain": "Contact Us"
+    }
+  ]
+}
