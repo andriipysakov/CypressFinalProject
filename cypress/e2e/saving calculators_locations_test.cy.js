@@ -8,7 +8,7 @@ const cities = '[name="stage2"]'
 
 describe('saving calculator tests', { defaultCommandTimeout: 10000 }, () => {
 
-    beforeEach(() => {
+  beforeEach(() => {
     cy.viewport(1400, 947)
     cy.visit('savings-calculator')
   })
