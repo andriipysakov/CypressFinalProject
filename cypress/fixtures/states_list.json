@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "state": "Alberta",
+            "city": "Calgary",
+            "city_id": "11"
+        },
+        {
+            "state": "Manitoba",
+            "city": "Winnepeg"
+        },
+        {
+            "state": "Newfoundland",
+            "city": "St Johns"
+        },
+        {
+            "state": "Ontario",
+            "city": "Toronto"
+        },
+        {
+            "state": "Quebec",
+            "city": "Montreal"
+        },
+        {
+            "state": "Saskatechewan",
+            "city": "Regina"
+        }
+    ]
+}
